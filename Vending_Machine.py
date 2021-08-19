@@ -2,11 +2,7 @@ import tkinter as tk
 
 from tkinter import Label,CENTER,PhotoImage,Button,Entry,BOTTOM,S,messagebox
 
-
-
 root= tk.Tk() 
-
- 
 
 canvas1 = tk.Canvas(root, width = 950, height = 600)
 
@@ -14,12 +10,11 @@ canvas1.pack()
 
 # title of the frame
 
-# root.title('Vending Machine')
+root.title('Vending Machine')
 
-# root.iconbitmap("images/vm.ico")
+root.iconbitmap("images/vm.ico")
 
-# canvas1.configure(bg='black')
-
+canvas1.configure(bg='black')
 
 
 label1 = tk.Label(root, text='Automatic Vending Machine',font="none 35 bold")
