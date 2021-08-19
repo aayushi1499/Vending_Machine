@@ -14,11 +14,11 @@ canvas1.pack()
 
 # title of the frame
 
-root.title('Vending Machine')
+# root.title('Vending Machine')
 
-root.iconbitmap("images/vm.ico")
+# root.iconbitmap("images/vm.ico")
 
-canvas1.configure(bg='black')
+# canvas1.configure(bg='black')
 
 
 
